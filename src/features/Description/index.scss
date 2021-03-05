@@ -1,0 +1,28 @@
+.des__container {
+  .des__main {
+    .ant-descriptions-title {
+      font-size: 1.2rem !important;
+      background-color: #006778;
+      color: #fff;
+      padding: 0.6%;
+    }
+    .ant-descriptions-row > th,
+    .ant-descriptions-row > td {
+      font-weight: 500;
+      font-size: 1rem;
+    }
+    .infected {
+      color: red !important;
+    }
+    .tested {
+      color: #05b3e7 !important;
+    }
+    .recovered {
+      color: #0edf54 !important;
+    }
+
+    .deceased {
+      color: #b200df !important;
+    }
+  }
+}

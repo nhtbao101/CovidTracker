@@ -1,0 +1,101 @@
+.container {
+  // width: 100%;
+  margin: 1% 4%;
+  .header {
+    color: #fff;
+    background-color: #006778;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 0.7%;
+    margin-bottom: 1%;
+    border-radius: 0px;
+  }
+  .main {
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .control__bar {
+    padding: 1% 2% 1% 0;
+    display: flex;
+    width: 30%;
+
+    .titile__sort {
+      flex: none;
+      margin: 5%;
+      padding: 5%;
+    }
+
+    .ant-row {
+      margin-right: 5px;
+      margin-top: 10px;
+      .not__found .ant-col-24 {
+        // font-size: 2rem;
+        // padding: 5%;
+      }
+    }
+  }
+
+  .ant-table-thead {
+    tr {
+      .ant-table-cell {
+        font-weight: bold;
+        background-color: #a9bfff !important;
+      }
+    }
+  }
+
+  .ant-table-body {
+    tr > td {
+      //   padding: 10px;
+      color: #3314d8;
+      font-weight: 500;
+    }
+  }
+
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    padding: 10px;
+  }
+
+  .ant-table-tbody {
+    tr > td:nth-child(1) {
+      color: red;
+      font-weight: 500;
+    }
+    tr > td:nth-child(2) {
+      color: rgb(5, 179, 231);
+      font-weight: 500;
+    }
+    tr > td:nth-child(3) {
+      color: rgb(14, 223, 84);
+      font-weight: 500;
+    }
+    tr > td:nth-child(4) {
+      color: rgb(178, 0, 223);
+      font-weight: 500;
+    }
+    tr > td:nth-child(5) {
+      color: rgb(235, 175, 10);
+      font-weight: 500;
+    }
+  }
+
+  .ant-table-cell {
+    font-weight: 100;
+    // padding: ;
+  }
+
+  .ant-pagination {
+    justify-content: center;
+  }
+  .table {
+    width: 100%;
+  }
+  .not__found,
+  .ant-col-24 {
+    // font-size: 1.8rem;
+    // padding: 3%;
+  }
+}
